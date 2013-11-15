@@ -13,15 +13,13 @@
 		83097369183629FE000605F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83097367183629FE000605F2 /* InfoPlist.strings */; };
 		8309736B183629FE000605F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309736A183629FE000605F2 /* main.m */; };
 		8309736F183629FE000605F2 /* IJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309736E183629FE000605F2 /* IJAppDelegate.m */; };
-		83097372183629FE000605F2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83097370183629FE000605F2 /* Main_iPhone.storyboard */; };
-		83097375183629FE000605F2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83097373183629FE000605F2 /* Main_iPad.storyboard */; };
-		83097378183629FE000605F2 /* IJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83097377183629FE000605F2 /* IJViewController.m */; };
 		8309737A183629FE000605F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83097379183629FE000605F2 /* Images.xcassets */; };
 		83097381183629FE000605F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83097380183629FE000605F2 /* XCTest.framework */; };
 		83097382183629FE000605F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8309735E183629FE000605F2 /* Foundation.framework */; };
 		83097383183629FE000605F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83097362183629FE000605F2 /* UIKit.framework */; };
 		8309738B183629FE000605F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83097389183629FE000605F2 /* InfoPlist.strings */; };
 		8309738D183629FE000605F2 /* LabsCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309738C183629FE000605F2 /* LabsCacheTests.m */; };
+		8309739818362E10000605F2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309739718362E10000605F2 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +43,14 @@
 		8309736C183629FE000605F2 /* LabsCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabsCache-Prefix.pch"; sourceTree = "<group>"; };
 		8309736D183629FE000605F2 /* IJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJAppDelegate.h; sourceTree = "<group>"; };
 		8309736E183629FE000605F2 /* IJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJAppDelegate.m; sourceTree = "<group>"; };
-		83097371183629FE000605F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		83097374183629FE000605F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		83097376183629FE000605F2 /* IJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJViewController.h; sourceTree = "<group>"; };
-		83097377183629FE000605F2 /* IJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJViewController.m; sourceTree = "<group>"; };
 		83097379183629FE000605F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8309737F183629FE000605F2 /* LabsCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabsCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83097380183629FE000605F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		83097388183629FE000605F2 /* LabsCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LabsCacheTests-Info.plist"; sourceTree = "<group>"; };
 		8309738A183629FE000605F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8309738C183629FE000605F2 /* LabsCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabsCacheTests.m; sourceTree = "<group>"; };
+		8309739618362E10000605F2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8309739718362E10000605F2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +112,8 @@
 			children = (
 				8309736D183629FE000605F2 /* IJAppDelegate.h */,
 				8309736E183629FE000605F2 /* IJAppDelegate.m */,
-				83097370183629FE000605F2 /* Main_iPhone.storyboard */,
-				83097373183629FE000605F2 /* Main_iPad.storyboard */,
-				83097376183629FE000605F2 /* IJViewController.h */,
-				83097377183629FE000605F2 /* IJViewController.m */,
+				8309739618362E10000605F2 /* WebViewController.h */,
+				8309739718362E10000605F2 /* WebViewController.m */,
 				83097379183629FE000605F2 /* Images.xcassets */,
 				83097365183629FE000605F2 /* Supporting Files */,
 			);
@@ -232,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83097375183629FE000605F2 /* Main_iPad.storyboard in Resources */,
 				8309737A183629FE000605F2 /* Images.xcassets in Resources */,
-				83097372183629FE000605F2 /* Main_iPhone.storyboard in Resources */,
 				83097369183629FE000605F2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +248,7 @@
 			files = (
 				8309736B183629FE000605F2 /* main.m in Sources */,
 				8309736F183629FE000605F2 /* IJAppDelegate.m in Sources */,
-				83097378183629FE000605F2 /* IJViewController.m in Sources */,
+				8309739818362E10000605F2 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,22 +277,6 @@
 				83097368183629FE000605F2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		83097370183629FE000605F2 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83097371183629FE000605F2 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		83097373183629FE000605F2 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83097374183629FE000605F2 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		83097389183629FE000605F2 /* InfoPlist.strings */ = {
