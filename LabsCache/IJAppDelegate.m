@@ -7,12 +7,17 @@
 //
 
 #import "IJAppDelegate.h"
+#import "WebViewController.h"
 
 @implementation IJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    WebViewController *wvc = [[WebViewController alloc] init];
+    
+    
+    [[self window] setRootViewController:wvc];
     return YES;
 }
 							
